@@ -17,8 +17,6 @@ The other project [**VacationPy**](VacationPy/) is used the output data from the
 
 * In the second task VacationPy, I understand that creating an exploratory-interactive geospatial, Weather information, heat maps, and visualization through Google API, and other similar API applications play a remarkable role to exploit the potential socio-economic value buried inside monotonously large datasets.
 
-* [Part II - VacationPy](#VacationPy)
-
 ## <a name="WeatherPy"></a> Part I - WeatherPy
 
 In this part, we created a visualization of the weather of 500+ cities across the world of varying distances from the equator was created. After performing the API call from [**OpenWeatherMap API**](https://openweathermap.org/api) a dataframe was created.
