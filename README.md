@@ -37,86 +37,7 @@ g_key="API_KEY_HERE"
 
 ## <a name="WeatherPy"></a> Part I - WeatherPy
 
-In this part, a Python script to visualize the weather of 500+ cities across the world of varying distances from the equator was created. After performing the API call from [**OpenWeatherMap API**](https://openweathermap.org/api) the following dataframe was created:
-
- <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>City</th>
-      <th>Lat</th>
-      <th>lng</th>
-      <th>Max Temp</th>
-      <th>Humidity</th>
-      <th>Cloudiness</th>
-      <th>Wind Speed</th>
-      <th>Country</th>
-      <th>Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>pierre</td>
-      <td>44.37</td>
-      <td>-100.35</td>
-      <td>77.00</td>
-      <td>47.0</td>
-      <td>40.0</td>
-      <td>13.87</td>
-      <td>US</td>
-      <td>1.592704e+09</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>salalah</td>
-      <td>17.02</td>
-      <td>54.09</td>
-      <td>82.40</td>
-      <td>88.0</td>
-      <td>75.0</td>
-      <td>4.70</td>
-      <td>OM</td>
-      <td>1.592704e+09</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>kununurra</td>
-      <td>-15.77</td>
-      <td>128.73</td>
-      <td>84.20</td>
-      <td>30.0</td>
-      <td>31.0</td>
-      <td>13.87</td>
-      <td>AU</td>
-      <td>1.592704e+09</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>upernavik</td>
-      <td>72.79</td>
-      <td>-56.15</td>
-      <td>39.76</td>
-      <td>73.0</td>
-      <td>0.0</td>
-      <td>8.52</td>
-      <td>GL</td>
-      <td>1.592704e+09</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>seybaplaya</td>
-      <td>19.65</td>
-      <td>-90.67</td>
-      <td>86.00</td>
-      <td>84.0</td>
-      <td>40.0</td>
-      <td>11.41</td>
-      <td>MX</td>
-      <td>1.592704e+09</td>
-    </tr>
-  </tbody>
-</table>
+In this part, we created a visualization of the weather of 500+ cities across the world of varying distances from the equator was created. After performing the API call from [**OpenWeatherMap API**](https://openweathermap.org/api) a dataframe was created.
 
 After that a series of scatter plots were created to showcase the following relationships:
 
@@ -198,5 +119,3 @@ If gmaps is not working in your environment try to enable by using this code `ju
 * A new dataFrame was created by narrow down the weather data to find the ideal weather condition.
 
 * Finally a gmap plot is created for hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
-
-  ![hotel map](Images/hotel.png)
